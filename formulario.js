@@ -1,3 +1,5 @@
+
+//este es para seleccionar el form por id
 var formulario = document.querySelector("#form")
 
 formulario.onsubmit = function(e) {
@@ -81,7 +83,6 @@ elementoLista.appendChild(espacio)
 crearElemento("Nombre", nombre)
 crearElemento("Edad", edad)
 crearElemento("Nacionalidad", nacionalidad)
-
 
 var botonBorrar = document.createElement("button")
 botonBorrar.textContent = "Eliminar invitado"
